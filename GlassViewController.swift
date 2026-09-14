@@ -7,7 +7,11 @@ final class GlassViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        label.text = "Make sure it continues after intermittent failures in individual imports"
+        label.text = """
+            Never gonna give you up
+            Never gonna let you down
+            Never gonna run around and desert you
+            """
         label.textAlignment = .center
         label.numberOfLines = 0
         label.textColor = .label
