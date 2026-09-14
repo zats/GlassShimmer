@@ -1,5 +1,8 @@
 # GlassShimmer
 
+A Swift and Metal sample that replicates the glass shimmer effect in the iOS 27 Shortcuts app.
+
 ![Shortcuts glass shimmer effect](preview.gif)
 
-A Swift and Metal sample that replicates the glass shimmer effect in the iOS 27 Shortcuts app.
+¹ tbf it looks way better on device
+
