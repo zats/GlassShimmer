@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D20C7640E6631A8F21CCDEB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49188E04BB846BAF8873AC9 /* QuartzCore.framework */; };
+		5C4621E93058431900D2D65F /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621E83058431900D2D65F /* App.swift */; };
+		5C4621EB3058431A00D2D65F /* GlassConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621EA3058431A00D2D65F /* GlassConfiguration.swift */; };
+		5C4621ED3058431A00D2D65F /* GlassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621EC3058431A00D2D65F /* GlassViewController.swift */; };
+		5C4621EF3058434A00D2D65F /* SpringAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621EE3058434A00D2D65F /* SpringAnimator.swift */; };
+		5C4621F13058434A00D2D65F /* CausticRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621F03058434A00D2D65F /* CausticRenderer.swift */; };
+		5C4621F53058437000D2D65F /* GlassLayers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621F43058437000D2D65F /* GlassLayers.swift */; };
+		5C4621F73058438F00D2D65F /* GenerativeGlassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621F63058438F00D2D65F /* GenerativeGlassView.swift */; };
+		5C4621F93058489300D2D65F /* Caustics.metal in Sources */ = {isa = PBXBuildFile; fileRef = 5C4621F23058437000D2D65F /* Caustics.metal */; };
+		717ACFAAD4C6E42FC44F2080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A671C9FAF72768DFABE3396 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5C4621E83058431900D2D65F /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		5C4621EA3058431A00D2D65F /* GlassConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassConfiguration.swift; sourceTree = "<group>"; };
+		5C4621EC3058431A00D2D65F /* GlassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassViewController.swift; sourceTree = "<group>"; };
+		5C4621EE3058434A00D2D65F /* SpringAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringAnimator.swift; sourceTree = "<group>"; };
+		5C4621F03058434A00D2D65F /* CausticRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CausticRenderer.swift; sourceTree = "<group>"; };
+		5C4621F23058437000D2D65F /* Caustics.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Caustics.metal; sourceTree = "<group>"; };
+		5C4621F43058437000D2D65F /* GlassLayers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassLayers.swift; sourceTree = "<group>"; };
+		5C4621F63058438F00D2D65F /* GenerativeGlassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerativeGlassView.swift; sourceTree = "<group>"; };
+		6A671C9FAF72768DFABE3396 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A49188E04BB846BAF8873AC9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C95CD60ADA08D79EFF170E14 /* GlassShimmer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassShimmer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E245ADF90E11FD6E60C535D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				717ACFAAD4C6E42FC44F2080 /* UIKit.framework in Frameworks */,
+				2D20C7640E6631A8F21CCDEB /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D66C086E5BE442C7332E23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C95CD60ADA08D79EFF170E14 /* GlassShimmer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4F6E20F8720BC8DB506FD43F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A49188E04BB846BAF8873AC9 /* QuartzCore.framework */,
+				6A671C9FAF72768DFABE3396 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8305552247163C3B62A5AC5B = {
+			isa = PBXGroup;
+			children = (
+				4F6E20F8720BC8DB506FD43F /* Frameworks */,
+				5C4621E83058431900D2D65F /* App.swift */,
+				5C4621EA3058431A00D2D65F /* GlassConfiguration.swift */,
+				5C4621EC3058431A00D2D65F /* GlassViewController.swift */,
+				5C4621EE3058434A00D2D65F /* SpringAnimator.swift */,
+				5C4621F03058434A00D2D65F /* CausticRenderer.swift */,
+				5C4621F23058437000D2D65F /* Caustics.metal */,
+				5C4621F43058437000D2D65F /* GlassLayers.swift */,
+				5C4621F63058438F00D2D65F /* GenerativeGlassView.swift */,
+				00D66C086E5BE442C7332E23 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		36A01983BA52FC265BE320B4 /* GlassShimmer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 340D0F81DB17E4993D54CCCE /* Build configuration list for PBXNativeTarget "GlassShimmer" */;
+			buildPhases = (
+				BF39089E20797AAAF6EFA2E7 /* Sources */,
+				B15B5B3E036E33ED6CBC2475 /* Resources */,
+				0E245ADF90E11FD6E60C535D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassShimmer;
+			packageProductDependencies = (
+			);
+			productName = GlassShimmer;
+			productReference = C95CD60ADA08D79EFF170E14 /* GlassShimmer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77723D89B87F4EFF687F7A0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					36A01983BA52FC265BE320B4 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 04D208EBA1483CCC88D0FED8 /* Build configuration list for PBXProject "GlassShimmer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8305552247163C3B62A5AC5B;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 00D66C086E5BE442C7332E23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				36A01983BA52FC265BE320B4 /* GlassShimmer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B15B5B3E036E33ED6CBC2475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF39089E20797AAAF6EFA2E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C4621F93058489300D2D65F /* Caustics.metal in Sources */,
+				5C4621ED3058431A00D2D65F /* GlassViewController.swift in Sources */,
+				5C4621E93058431900D2D65F /* App.swift in Sources */,
+				5C4621EB3058431A00D2D65F /* GlassConfiguration.swift in Sources */,
+				5C4621F13058434A00D2D65F /* CausticRenderer.swift in Sources */,
+				5C4621F53058437000D2D65F /* GlassLayers.swift in Sources */,
+				5C4621F73058438F00D2D65F /* GenerativeGlassView.swift in Sources */,
+				5C4621EF3058434A00D2D65F /* SpringAnimator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		00202AF02613E879C5E3D596 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		591E49A9F6062B251188C345 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		B011A4A91129A8C7A3A9F64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KE88HWMKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zats.GlassShimmer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DD4C8E96BAD1397778A320BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5KE88HWMKJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.zats.GlassShimmer;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04D208EBA1483CCC88D0FED8 /* Build configuration list for PBXProject "GlassShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				591E49A9F6062B251188C345 /* Debug */,
+				00202AF02613E879C5E3D596 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		340D0F81DB17E4993D54CCCE /* Build configuration list for PBXNativeTarget "GlassShimmer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B011A4A91129A8C7A3A9F64B /* Debug */,
+				DD4C8E96BAD1397778A320BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77723D89B87F4EFF687F7A0F /* Project object */;
+}
